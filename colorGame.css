@@ -1,5 +1,7 @@
 body {
 	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
 }
 .square {
 	width: 30%;
@@ -13,9 +15,24 @@ body {
 	max-width: 600px;
 }
 h1{
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
 	color: white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
 }
 
+#colorDislay {
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
 
 #stripe {
 	background: white;
@@ -26,4 +43,22 @@ h1{
 
 .selected {
 	background: blue;
+	background: steelblue;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+}
+
+button: hover {
+	color: white;
+	background: steelblue;
 }
